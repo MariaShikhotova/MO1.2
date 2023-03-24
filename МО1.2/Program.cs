@@ -17,7 +17,7 @@ namespace МО1._2
         public static double[,] initial_approximation(double[,] P)
         {
             
-            for (int j = 0; j < N + 1; j++)//Инициализация вершин
+            for (int j = 0; j < N + 1; j++)//Начальное приближение
             {
                 for (int k = 0; k < N; k++)
                 {
@@ -47,7 +47,7 @@ namespace МО1._2
            
             double[] F = new double[N+1];
             double[] row = new double[N];
-            for (int j = 0; j < N + 1; j++)//Расчет значений функции в вершина многогранника
+            for (int j = 0; j < N + 1; j++)//Расчет функции
             {
                 
                 for (int i = 0; i < N; i++) 
